@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+:root{
+    --Black: #141414;
+    --Grey: #333;
+    --Neon-Green: #C4F82A;
+    --Dark-Grey: #1F1F1F;
+    --Inter: "Inter"
+
+}
+.page{
+    display: flex;
+    display: flex;
+    width: 384px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    border-radius: 12px;
+    background-color: var(--Dark-Grey);
+}
+.page-item{
+    display: flex;
+    justify-content: center;
+}
+.page-images{
+    border-radius: 999px;
+    align-items: center;
+}
+.page-image{
+    width: 88px;
+    height: 88px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.page-title{
+    font-family: var(--Inter);
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 150%;
+    color: white;
+    margin-top: 24px;
+}
+.page-text{
+    margin-top: 4px;
+    color: var(--Neon-Green);
+    align-self: stretch;
+    text-align: center;
+    font-family: var(--Inter);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+}
+.page_text{
+    margin-top: 24px;
+    align-self: stretch;
+    color: white;
+    font-family: var(--Inter);
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 150%;
+    text-align: center;
+}
+.btn{
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: var(--Neon-Green);
+
+}
+.page-btn{
+    font-family: var(--Inter);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    color: white;
+    cursor: pointer;
+    transition: 5s;
+}
+
