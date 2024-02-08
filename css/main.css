@@ -17,7 +17,6 @@ a{
 }
 .page{
     display: flex;
-    display: flex;
     width: 384px;
     padding: 40px;
     flex-direction: column;
@@ -37,8 +36,8 @@ a{
 .page-image{
     width: 88px;
     height: 88px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
+
 .page-title{
     font-family: var(--Inter);
     font-size: 24px;
@@ -80,13 +79,28 @@ a{
 
 }
 .page-btn{
+    color: white;
     font-family: var(--Inter);
     font-size: 14px;
-    font-style: normal;
     font-weight: 700;
     line-height: 150%;
-    color: white;
+    display: flex;
+    padding: 12px;
+    width: 304px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    border-radius:8 px;
+    background-color: var(--Grey);
     cursor: pointer;
-    transition: 5s;
+    transition: .5s;
+}
+.page-btn:active{
+
+    background-color: var(--Neon-Green);
+    color: var(--Dark-Grey);
+
+
 }
 
